@@ -746,4 +746,9 @@ THE SOFTWARE. */
   } else {
     videojs.registerComponent('Youtube', Youtube);
   }
+
+  return {
+      videojs: videojs,
+      Youtube: Youtube
+  };
 }));
